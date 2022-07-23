@@ -8,6 +8,11 @@ public class ProductRepository {
         }
         tmp[tmp.length - 1] = product;
         products = tmp;
+
+    }
+
+    public Product[] getProducts() {
+        return products;
     }
 
     public Product[] findAll() {
@@ -32,8 +37,9 @@ public class ProductRepository {
         for (int i = 0; i < products.length; i++) {
             if (products[i].getId() != id) {
                 tmp[copyId] = products[i];
+                copyId++;
             }
-            copyId++;
+
         }
         products = tmp;
 

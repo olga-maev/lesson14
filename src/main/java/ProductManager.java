@@ -12,7 +12,9 @@ public class ProductManager {
     public void removeId(int id) {
         repository.removeId(id);
     }
-
+//    public void findAll(){
+//        repository.findAll();
+//    }
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
         for (Product product : repository.findAll()) {

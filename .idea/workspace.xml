@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af41061-967f-427e-b32f-d00c2ea00edd" name="Changes" comment="">
+    <list default="true" id="8af41061-967f-427e-b32f-d00c2ea00edd" name="Changes" comment="&quot;Code format&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Smartphone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +35,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kurum/IdeaProjects/lesson14&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="ProductManagerTest.souldNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.souldRemoveId">
+    <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson14" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
-      <option name="METHOD_NAME" value="souldNotFoundException" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.souldNotFoundExceptionIdAbsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
+      <option name="METHOD_NAME" value="souldNotFoundExceptionIdAbsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductManagerTest.souldRemoveId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductManagerTest" />
+      <option name="METHOD_NAME" value="souldRemoveId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.souldNotFoundExceptionIdAbsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="souldNotFoundExceptionIdAbsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.souldRemoveId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="souldRemoveId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,7 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductManagerTest.souldNotFoundException" />
+        <item itemvalue="JUnit.ProductRepositoryTest.souldRemoveId" />
+        <item itemvalue="JUnit.ProductManagerTest" />
+        <item itemvalue="JUnit.ProductRepositoryTest.souldNotFoundExceptionIdAbsent" />
+        <item itemvalue="JUnit.ProductManagerTest.souldRemoveId" />
+        <item itemvalue="JUnit.ProductManagerTest.souldNotFoundExceptionIdAbsent" />
       </list>
     </recent_temporary>
   </component>
@@ -72,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658405685501</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Code format&quot;">
+      <created>1658407383938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658407383938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Code format&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Code format&quot;" />
   </component>
 </project>
